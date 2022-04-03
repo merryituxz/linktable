@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "reflect"
 
-func main(){
-	fmt.Println("hello")
+func main() {
+	var v interface{} = true
+	reflect.TypeOf(v)
 }
